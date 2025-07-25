@@ -1,0 +1,186 @@
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #242424;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 650px;
+  min-height: 100px;
+  border: 4px solid white;
+  border-radius: 15px;
+  outline: 5px solid offwhite;
+  background-color: #f5f6fa;
+  margin: 3rem auto;
+}
+
+.head-div {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px 10px 0 0;
+  background-color: #e74c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-div > span {
+  color: white;
+}
+
+.earth-logo {
+  width: 21px;
+  padding: 0 5px;
+  color: white;
+}
+
+header > span {
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.location-tile {
+  display: flex;
+  margin-top: -27px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.location-tile > img {
+  width: 190px;
+  height: 225px;
+  border-radius: 15px;
+  margin: 0px 10px;
+}
+
+.infos {
+  height: 10px;
+  width: 100%;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  font-family: Inter;
+}
+
+.view {
+  color: rgb(128, 125, 125);
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+.city {
+  margin-right: 9px;
+  letter-spacing: 3px;
+  color: rgb(128, 125, 125);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.location-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: -5px;
+}
+
+.date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(128, 125, 125);
+}
+
+.marker {
+  width: 10px;
+  margin-right: 5px;
+}
